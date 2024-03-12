@@ -1,0 +1,139 @@
+* {
+    font-family: 'monteserrat';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 44px;
+    margin-left: 76px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+.link-care {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #989D9C;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.button-care {
+    width: 130px;
+    background: #665AE1;
+    height: 41px;
+    border-radius: 21px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-care {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    margin-top: 217px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    margin-top: 0;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    color: #848484;
+}
+
+.button-explore {
+    width: 239px;
+    height: 64px;
+    border-radius: 30px;
+    background: #ADFF00;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 65px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:600px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-care {
+        width: 85%;
+        height: auto;
+        margin: 150px auto 0;
+        display: block;
+        position: static;
+    }
+    
+    
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+        margin: 24px auto 0;
+        display: block;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .button-explore {
+        width: 239px;
+        height: 64px;
+        margin-top: 17px;
+    }
+    
+
+}
